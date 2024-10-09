@@ -23,7 +23,7 @@ body {
     grid-template-areas: 
     "purplee purplee grayy secondwhite"
     "whitee darkk darkk secondwhite";
-    
+    gap: 50px;
 }
 
 /* იასამნისფერი პროფილის დასაწყისი */
@@ -33,9 +33,6 @@ body {
     background: #733FC8;
     border-radius: 8px;
     padding: 26px ;
-    width: 540px;
-    height: 282px;
-    
 }
 
 img {
@@ -89,39 +86,177 @@ img {
 
 /* იწყება ახალი ბოქსი */
 
-.box2 {
-    display: flex;
+.container {
     grid-area: whitee;
     background-color: white;
+}
+
+.box2 {
+    display: flex;
     border-radius: 8px;
-    width: 255px;
-    height: 266;
+    padding: 26px;
+    gap: 10px;
+}
+
+.text2 h4 {
+    color: #48556A;
+    font-size: 13px;
+
+}
+
+.text2 p {
+    color: #48556A;
+    font-size: 11px;
+}
+
+.maintext2 h1 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #48556A;
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+
+.maintext2 p {
+    font-size: 13px;
+    padding-left: 16px;
+    line-height: 18px;
+    color: #48556A;
+}
+
+/* სრულდება  ბოქსი */
+
+
+/* იწყება ახალი ბოქსი */
+
+.container2 {
+    grid-area: grayy;
+    background-color: gray;
+    border-radius: 8px;
+
 }
 
 .box3 {
     display: flex;
-    grid-area: grayy;
-    background-color: gray;
-    border-radius: 8px;
-    width: 255px;
-    height: 282px;
-
+    padding: 26px;
+    gap: 10px;
 }
 
-.box4 {
-    display: flex;
-    width: 540px;
-    height: 266px;
+.text3 h4{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.text3 p {
+    color: #FFFFFF;
+    font-size: 11;
+    opacity: 50%;
+}
+
+.maintext3 h1 {
+    color: #ffff;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+
+.maintext3 p {
+    padding-left: 16px;
+    padding-bottom: 25px;
+    font-size: 13px;
+    color: #ffff;
+    opacity: 70%;
+    
+}
+
+
+/* სრულდება  ბოქსი */
+
+
+
+/* იწყება ახალი ბოქსი */
+.container3 {
     grid-area: darkk;
     background: #19202D;
     border-radius: 8px;
 }
 
-.box5 {
+.box4 {
     display: flex;
-    width: 255px;
-    height: 572px;
+    padding: 26px;
+    gap: 10px;
+}
+
+.text4 h4 {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.text4 p {
+    color: #FFFFFF;
+    font-size: 11px;
+    opacity: 50%;
+}
+
+.maintext4 h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+
+.maintext4 p {
+    text-align: center;
+    opacity: 70%;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+
+
+/* სრულდება  ბოქსი */
+
+.container4 {
     grid-area: secondwhite;
     background-color: #ffff;
     border-radius: 8px;
+}
+.box5 {
+    display: flex;
+    padding: 26px;
+    gap: 10px;
+}
+
+.text5 h4 {
+    font-size: 13px;
+    line-height: 13px;
+    color: #48556A;
+}
+
+.text5 p {
+    font-size: 11px;
+    opacity: 50%;
+    font-weight: 500;
+    color: #48556A;
+}
+
+.maintext5 h1 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    color: #48556A;
+}
+
+.maintext5 p {
+    font-size: 13px;
+    opacity: 70%;
+    font-weight: 500;
+    line-height: 18px;
+    padding-left: 16px;
+    padding-top: 76px;
 }
