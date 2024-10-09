@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2F8;
+}
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    "purplee purplee grayy secondwhite"
+    "whitee darkk darkk secondwhite";
+    
+}
+
+/* იასამნისფერი პროფილის დასაწყისი */
+.box1 {
+    display: flex;
+    grid-area:purplee;
+    background: #733FC8;
+    border-radius: 8px;
+    padding: 26px ;
+    width: 540px;
+    height: 282px;
+    
+}
+
+img {
+    height: 28px;
+    width: 28px;
+}
+
+.profile1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    
+}
+
+.text1 h4 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.text1 p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+ 
+}
+
+.maintext1 {
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.maintext1 h1 {
+    font-size: 20px;
+    width: 476px;
+    height: 72px;
+    color: white;
+}
+
+.maintext1 p {
+    padding-top: 16px;
+    color: #CFCFCF;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+/* იასამნისფერი პროფილის დასასრული */
+
+/* იწყება ახალი ბოქსი */
+
+.box2 {
+    display: flex;
+    grid-area: whitee;
+    background-color: white;
+    border-radius: 8px;
+    width: 255px;
+    height: 266;
+}
+
+.box3 {
+    display: flex;
+    grid-area: grayy;
+    background-color: gray;
+    border-radius: 8px;
+    width: 255px;
+    height: 282px;
+
+}
+
+.box4 {
+    display: flex;
+    width: 540px;
+    height: 266px;
+    grid-area: darkk;
+    background: #19202D;
+    border-radius: 8px;
+}
+
+.box5 {
+    display: flex;
+    width: 255px;
+    height: 572px;
+    grid-area: secondwhite;
+    background-color: #ffff;
+    border-radius: 8px;
+}
